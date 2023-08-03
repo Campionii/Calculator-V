@@ -1,0 +1,132 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+#header, #footer {
+  background-color: #03a1fc;
+}
+
+.primeira {
+  background-color: #047ec4;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
+  flex-wrap: wrap;
+}
+
+
+.nome {
+  font: 700 40px 'Lucida', sans-serif;
+  color: white;
+}
+
+.item {
+  font: 500 25px 'Lucida', sans-serif;
+  color: white;
+  margin-left: 50px;
+}
+
+.primeira .titulo {
+  font: 600 32px 'Lucida', sans-serif;
+  color: white;
+
+}
+
+.primeira .texto, .news .texto {
+  font: 500 23px 'Lucida', sans-serif;
+  color: white;
+}
+
+.caixas {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top:-35px ;
+}
+
+.caixas .imagem img {
+  max-width: 100%;
+  width:   100px;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.caixa {
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px 25px;
+  width: 200px;    
+  background-color: white;
+  height: 270px;
+
+}
+
+.planos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 500px;
+}
+
+.plano {
+  background-color: #edecec; 
+  text-align: center;
+  margin: 0 40px;
+  padding: 30px 20px ;
+}
+
+.plano-tipo, .preco, .titulo {
+  font: 700 25px 'Lucida', sans-serif;
+  padding: 30px 0;
+}
+
+.beneficio {
+  font: 500 18px 'Lucida', sans-serif;
+  padding: 0 20px;
+}
+
+.linha-le {
+  height: 20px;
+  margin: 20px 0;
+  background-color: #FF912D;
+  
+  }
+
+.linha-la {
+  height: 20px;
+  margin: 20px -20px;
+  background-color: #FF912D;
+  }
+
+.conteudo .texto {
+  font: 400 20px 'Lucida', sans-serif;
+  margin-bottom: 25px;
+  text-align: justify;
+
+}
+
+.caixa:hover{
+  box-shadow: 0px 0px 15px 10px #5e5e5e;
+  transition:0.3s ease-in;
+  
+}
+
